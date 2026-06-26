@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <style> 
+       /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    padding: 30px;
+}
+
+/* Table Container */
+.table-container {
+    width: 90%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 2px solid #333;
+}
+
+/* Header */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+/* Alternate Row Colors */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #e8f5e9;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+    </style>
+</head>
+<body>
+    <h1> Employee Information </h1>
+    <table> 
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>City</th>
+                <th>Contact</th>
+                <th>Mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Naina </td>
+                <td> 12345 </td>
+                <td> IT </td>
+                <td> $5000 </td>
+                <td> New York </td>
+                <td> 123-456-7890 </td>
+                <td> naina@gmail.com </td>
+            </tr>
+            <tr>
+                <td> Kritika </td>
+                <td> 67890 </td>
+                <td> HR </td>
+                <td> $6000 </td>
+                <td> Los Angeles </td>
+                <td> 987-654-3210 </td>
+                <td> kritika@gmail.com </td>
+            </tr>
+            <tr>
+                <td> Anushka </td>
+                <td> 54321 </td>
+                <td> Finance </td>
+                <td> $5500 </td>
+                <td> Chicago </td>
+                <td> 555-123-4567 </td>
+                <td> anushka@gmail.com </td>
+            </tr>
+            <tr>
+                <td> Rohan </td>
+                <td> 98765 </td>
+                <td> Marketing </td>
+                <td> $4500 </td>
+                <td> Houston </td>
+                <td> 444-987-6543 </td>
+                <td> rohan@gmail.com </td>
+            </tr>
+            <tr>
+                <td> Abhishek </td>
+                <td> 67896 </td>
+                <td> Consulting </td>
+                <td> $5000 </td>
+                <td> Houston </td>
+                <td> 567-987-765 </td>
+                <td> abhishek@gmail.com </td>
+            </tr>
+        </tbody>       
+    </table>
+</body>
+</html>

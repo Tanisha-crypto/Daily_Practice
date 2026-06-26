@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College ID Card</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#d9d9d9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+    border:3px solid #ddd;
+}
+
+.top{
+    height:70px;
+    background:linear-gradient(to bottom,#f4d600,#fff);
+    border-bottom:2px solid #ccc;
+}
+
+.content{
+    padding:15px;
+    text-align:center;
+}
+
+.logo{
+    font-size:14px;
+    color:#004aad;
+    font-weight:600;
+}
+
+.college{
+    color:#c8002f;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.engg{
+    color:#003399;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.aff{
+    font-size:14px;
+    color:#003399;
+    margin-bottom:15px;
+}
+
+.photo{
+    width:120px;
+    height:150px;
+    border:2px solid gray;
+    object-fit:cover;
+}
+
+.name{
+    margin-top:15px;
+    color:#b00020;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.branch{
+    font-size:18px;
+    color:#003399;
+}
+
+.roll{
+    font-size:18px;
+    margin-top:5px;
+}
+
+.barcode{
+    margin:15px auto;
+    width:220px;
+    height:40px;
+    background:repeating-linear-gradient(
+    90deg,
+    black 0px,
+    black 2px,
+    white 2px,
+    white 4px
+    );
+}
+
+.bottom{
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    color:#b00020;
+    font-weight:bold;
+}
+
+.photo{
+    width:120px;
+    height:150px;
+    border:2px solid gray;
+    object-fit:cover;
+}
+
+.valid{
+    writing-mode:vertical-rl;
+    text-orientation:mixed;
+    font-size:18px;
+    font-weight:600;
+    color:#333;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<div class="top"></div>
+
+<div class="content">
+
+<div class="logo">
+MPEC | AKTU CODE 046
+</div>
+
+<div class="college">
+MAHARANA PRATAP
+</div>
+
+<div class="engg">
+ENGINEERING COLLEGE
+</div>
+
+<div class="aff">
+Affiliated to Dr. A.P.J.A.K.T.U., Lucknow<br>
+& Approved By AICTE
+</div>
+
+<img src="https://i.pravatar.cc/150?img=32" class="photo">
+
+<div class="valid">
+Valid Upto 2027
+</div>
+
+<div class="name">
+TANISHA
+</div>
+
+<div class="branch">
+B.Tech (CSE) / Sec-A2
+</div>
+
+<div class="roll">
+23CS97
+</div>
+
+<div class="barcode"></div>
+
+</div>
+
+<div class="bottom">
+<span>Day Scholar</span>
+<span>Director</span>
+</div>
+
+</div>
+
+</body>
+</html>
