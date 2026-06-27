@@ -27,7 +27,7 @@ This repository contains my HTML and CSS practice projects created while learnin
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Tanisha-crypto/your-repository.git
+git clone https://github.com/Tanisha-crypto/Daily_Practice.git
 ```
 
 2. Open the project folder in Visual Studio Code.
